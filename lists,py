@@ -1,0 +1,119 @@
+a = [32,"helo",14.5,3+5j]
+print("Salallaho Alaihi Wa Alihi Wasallam")
+# # a[3] = 31
+# # print(a)
+
+# # traversing on list
+# # a = [10,20,30,40,50]
+# # print(a)       #simple as that
+
+# # # traversing on values using for loop
+# # for i in a:
+# #     print(i)
+ 
+# traversing on indexes
+for i in range(len(a)):
+    print(f"{i} : {a[i]} ")
+
+# # list methods
+# a = [10,'b',45,'vc',10.56]
+# a.append("mother")
+
+
+
+# a.insert(2,'ah')
+# print(a)
+
+
+# def hello():
+#     return "your mother is my mother"
+# print(hello())
+# l = a.pop(6)
+# print(a)
+# print(l)
+
+
+# a = [ 10 ,20 ,30 ,40 ,50 ,45]
+# a.pop(-2)
+# print(a)
+
+
+# Print all positive and negative elements separately.
+# Input: [3, -1, 4, -5, 9]
+# Positive: [3,4,9] Negative: [-1,-5]
+
+# a = [3, -1, 4, -5, 9]
+# pos = []
+# neg = []
+# for i in a:
+#     if i>= 0:
+#         pos.append(i)
+#     else:
+#         neg.append(i)
+
+# print(f"Your positive numbers are {pos}")
+# print(f"Your negative numbers are {neg}")
+
+# Find the mean (average) of all list elements.
+# Input: [10, 20, 30, 40]
+# Mean = 25.0
+
+# l = [10,20,30,40]
+# sum = 0
+# for i in l:
+#     sum = sum +i
+# average = sum/len(l)
+# print(f"your average is {average}")
+
+# Q3
+# Find the greatest element and print its index.
+# Input: [4, 8, 2, 9, 1]
+# Greatest = 9 at index 3
+
+# a = [4, 8, 2, 9, 1]
+# largest = a[0]
+
+# for i in range(len(a)):
+#     if a[i] > largest:
+#         largest = a[i]
+#         index = i
+
+# print(f"your largest number is {largest } at index {index}")
+
+# Find the second greatest element.
+# Input: [4, 8, 2, 9, 1]
+# Second greatest = 8 
+
+# l =[4, 8, 2, 1,9]
+
+# largest = l[0]
+# sec_largest = l[0]
+
+# for i in l:
+#     if i > largest:
+#         sec_largest = largest
+#         largest = i
+#     elif i >sec_largest:
+#         sec_largest = i
+
+# print(sec_largest)
+
+
+
+# Check if the list is already sorted.
+# Input: [1, 3, 5, 7]
+# List is sorted ✅
+# Input: [3, 1, 4]
+
+a = [1, 3, 5, 7,4]
+
+for i in range(len(a)-1):
+    if a[i] > a[i+1]:
+        print("list is not sorted")
+        break
+else:
+    print("the list is sorted")
+
+
+
+
