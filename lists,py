@@ -1,19 +1,4 @@
-a = [32,"helo",14.5,3+5j]
-print("Salallaho Alaihi Wa Alihi Wasallam")
-# # a[3] = 31
-# # print(a)
-
-# # traversing on list
-# # a = [10,20,30,40,50]
-# # print(a)       #simple as that
-
-# # # traversing on values using for loop
-# # for i in a:
-# #     print(i)
- 
-# traversing on indexes
-for i in range(len(a)):
-    print(f"{i} : {a[i]} ")
+d =  90
 
 # # list methods
 # a = [10,'b',45,'vc',10.56]

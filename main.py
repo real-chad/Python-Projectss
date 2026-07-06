@@ -13,15 +13,15 @@
 # # print(e)
 # # a= ("he said how are 'u'")
 # # print(a)
-a = "superduper"
-print (a[0],a[-10])
+# # a = "superduper"
+# # print (a[0],a[-10])
 
 
 # # d = "COLLEGE" 
 # # # print CLEE
 # # print(d[0:7:2])
-b = "heroine"
-print(b[0:4])
+# b = "heroine"
+# print(b[0:4])
 
 
 
@@ -40,3 +40,6 @@ print(b[0:4])
 
 # a = "Panadol"
 # print(a[-5:-1])
+
+d = {True:"df"}
+print(d[True])

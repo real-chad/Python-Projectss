@@ -14,8 +14,3 @@ while n>0 :
 print(rev)
 
 
-# aik aisa system jo usr sa input le or sare numbers ko add kr de
-sum = 0
-a = int(input("Enter your Numbere please:- "))
-while a>0:
-    n = 
