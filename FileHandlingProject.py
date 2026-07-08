@@ -85,7 +85,7 @@ while True:
     print("Press 2 To Read a File")
     print("Press 3 To Update a File")
     print("Press 4 To Delete a File")
-    print("Press 5 To Exit") # Naya exit option
+    print("Press 5 To Exit") 
     
     try:
         a = int(input("\nTell your Response:- "))
