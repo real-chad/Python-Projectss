@@ -12,3 +12,9 @@ subtraction(5)
 def multiply (a,b,c):
     print(a*b*c)
 multiply(a = 8, b = 5, c =6)
+
+
+
+d = {1:1000,'b':90}
+for i in range(len(d)):
+    print(i)
